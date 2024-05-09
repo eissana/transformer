@@ -15,7 +15,7 @@ if __name__ == '__main__':
 
     data = split(dh.data(), train_ratio=0.8, valid_ratio=0.1)
 
-    model = Transformer(nhead=4, config=config)
+    model = Transformer(config=config)
     print(f'Model parameters: {util.nparameters(model)}')
     
     losses = metrics.optimize(model, data, config)
