@@ -1,0 +1,2 @@
+final training loss: 1.2426115448474884
+final validation loss: 1.4974986774921417
